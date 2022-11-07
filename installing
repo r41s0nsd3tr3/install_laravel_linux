@@ -13,3 +13,7 @@ http://127.0.0.1:8000/
 ------
 sudo mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'a!111111';
+------
+composer global require laravel/installer
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
+laravel new project
