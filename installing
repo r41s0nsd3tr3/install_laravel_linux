@@ -19,3 +19,11 @@ export PATH=$PATH:$HOME/.config/composer/vendor/bin
 laravel new project
 sudo vi /etc/environment
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:$HOME/.config/composer/vendor/bin"
+------------
+wget https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip
+unzip -l JetBrainsMono-2.242.zip -d dir
+mkdir ~/.local/share/fonts 
+cp * ~/.local/share/fonts 
+"editor.fontFamily": "JetBrains Mono",
+"editor.fontLigatures": true,
+"editor.letterSpacing": 1.2,
